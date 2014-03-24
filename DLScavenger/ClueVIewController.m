@@ -9,6 +9,10 @@
 #import "ClueVIewController.h"
 
 @interface ClueVIewController ()
+@property (nonatomic, weak) IBOutlet UIButton *hereButton;
+@property (nonatomic, weak) IBOutlet UILabel *clueLabel;
+@property (nonatomic, weak) IBOutlet UITextView *clueDescriptionView;
+
 
 @end
 
