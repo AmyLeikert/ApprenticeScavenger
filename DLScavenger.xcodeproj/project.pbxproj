@@ -19,6 +19,8 @@
 		249F6E1618E0AC4100FA1F76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249F6DFE18E0AC4100FA1F76 /* UIKit.framework */; };
 		249F6E1E18E0AC4100FA1F76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 249F6E1C18E0AC4100FA1F76 /* InfoPlist.strings */; };
 		249F6E2018E0AC4100FA1F76 /* DLScavengerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F6E1F18E0AC4100FA1F76 /* DLScavengerTests.m */; };
+		24C5800518E0AFE600EBDE67 /* ClueVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C5800318E0AFE600EBDE67 /* ClueVIewController.m */; };
+		24C5800618E0AFE600EBDE67 /* ClueVIewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24C5800418E0AFE600EBDE67 /* ClueVIewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		249F6E1B18E0AC4100FA1F76 /* DLScavengerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DLScavengerTests-Info.plist"; sourceTree = "<group>"; };
 		249F6E1D18E0AC4100FA1F76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		249F6E1F18E0AC4100FA1F76 /* DLScavengerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLScavengerTests.m; sourceTree = "<group>"; };
+		24C5800218E0AFE600EBDE67 /* ClueVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClueVIewController.h; sourceTree = "<group>"; };
+		24C5800318E0AFE600EBDE67 /* ClueVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClueVIewController.m; sourceTree = "<group>"; };
+		24C5800418E0AFE600EBDE67 /* ClueVIewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClueVIewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				249F6E0918E0AC4100FA1F76 /* DLAppDelegate.h */,
 				249F6E0A18E0AC4100FA1F76 /* DLAppDelegate.m */,
+				24C5800218E0AFE600EBDE67 /* ClueVIewController.h */,
+				24C5800318E0AFE600EBDE67 /* ClueVIewController.m */,
+				24C5800418E0AFE600EBDE67 /* ClueVIewController.xib */,
 				249F6E0C18E0AC4100FA1F76 /* Images.xcassets */,
 				249F6E0118E0AC4100FA1F76 /* Supporting Files */,
 			);
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				249F6E0518E0AC4100FA1F76 /* InfoPlist.strings in Resources */,
+				24C5800618E0AFE600EBDE67 /* ClueVIewController.xib in Resources */,
 				249F6E0D18E0AC4100FA1F76 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C5800518E0AFE600EBDE67 /* ClueVIewController.m in Sources */,
 				249F6E0B18E0AC4100FA1F76 /* DLAppDelegate.m in Sources */,
 				249F6E0718E0AC4100FA1F76 /* main.m in Sources */,
 			);
@@ -442,6 +452,7 @@
 				249F6E2518E0AC4100FA1F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		249F6E2618E0AC4100FA1F76 /* Build configuration list for PBXNativeTarget "DLScavengerTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +461,7 @@
 				249F6E2818E0AC4100FA1F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
