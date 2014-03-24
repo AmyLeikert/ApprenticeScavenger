@@ -20,6 +20,11 @@
 		249F6E1618E0AC4100FA1F76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249F6DFE18E0AC4100FA1F76 /* UIKit.framework */; };
 		249F6E1E18E0AC4100FA1F76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 249F6E1C18E0AC4100FA1F76 /* InfoPlist.strings */; };
 		249F6E2018E0AC4100FA1F76 /* DLScavengerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F6E1F18E0AC4100FA1F76 /* DLScavengerTests.m */; };
+		24A80FB518E0AE4B00EFADDC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A80FB418E0AE4B00EFADDC /* MapKit.framework */; };
+		24A80FB918E0AE5D00EFADDC /* DLHuntViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A80FB718E0AE5D00EFADDC /* DLHuntViewController.m */; };
+		24A80FBA18E0AE5D00EFADDC /* DLHuntViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24A80FB818E0AE5D00EFADDC /* DLHuntViewController.xib */; };
+		24A80FBC18E0B14200EFADDC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A80FBB18E0B14200EFADDC /* CoreLocation.framework */; };
+		24A80FBF18E0B87700EFADDC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A80FBE18E0B87700EFADDC /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,13 @@
 		249F6E1B18E0AC4100FA1F76 /* DLScavengerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DLScavengerTests-Info.plist"; sourceTree = "<group>"; };
 		249F6E1D18E0AC4100FA1F76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		249F6E1F18E0AC4100FA1F76 /* DLScavengerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLScavengerTests.m; sourceTree = "<group>"; };
+		24A80FB418E0AE4B00EFADDC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		24A80FB618E0AE5D00EFADDC /* DLHuntViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLHuntViewController.h; sourceTree = "<group>"; };
+		24A80FB718E0AE5D00EFADDC /* DLHuntViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLHuntViewController.m; sourceTree = "<group>"; };
+		24A80FB818E0AE5D00EFADDC /* DLHuntViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLHuntViewController.xib; sourceTree = "<group>"; };
+		24A80FBB18E0B14200EFADDC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		24A80FBD18E0B87700EFADDC /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		24A80FBE18E0B87700EFADDC /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24A80FBC18E0B14200EFADDC /* CoreLocation.framework in Frameworks */,
+				24A80FB518E0AE4B00EFADDC /* MapKit.framework in Frameworks */,
 				249F6DFD18E0AC4100FA1F76 /* CoreGraphics.framework in Frameworks */,
 				249F6DFF18E0AC4100FA1F76 /* UIKit.framework in Frameworks */,
 				249F6DFB18E0AC4100FA1F76 /* Foundation.framework in Frameworks */,
@@ -101,6 +115,8 @@
 		249F6DF918E0AC4100FA1F76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				24A80FBB18E0B14200EFADDC /* CoreLocation.framework */,
+				24A80FB418E0AE4B00EFADDC /* MapKit.framework */,
 				249F6DFA18E0AC4100FA1F76 /* Foundation.framework */,
 				249F6DFC18E0AC4100FA1F76 /* CoreGraphics.framework */,
 				249F6DFE18E0AC4100FA1F76 /* UIKit.framework */,
@@ -114,6 +130,11 @@
 			children = (
 				249F6E0918E0AC4100FA1F76 /* DLAppDelegate.h */,
 				249F6E0A18E0AC4100FA1F76 /* DLAppDelegate.m */,
+				24A80FB618E0AE5D00EFADDC /* DLHuntViewController.h */,
+				24A80FB718E0AE5D00EFADDC /* DLHuntViewController.m */,
+				24A80FB818E0AE5D00EFADDC /* DLHuntViewController.xib */,
+				24A80FBD18E0B87700EFADDC /* Reachability.h */,
+				24A80FBE18E0B87700EFADDC /* Reachability.m */,
 				249F6E0C18E0AC4100FA1F76 /* Images.xcassets */,
 				249F6E0118E0AC4100FA1F76 /* Supporting Files */,
 			);
@@ -225,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24A80FBA18E0AE5D00EFADDC /* DLHuntViewController.xib in Resources */,
 				249F6E0518E0AC4100FA1F76 /* InfoPlist.strings in Resources */,
 				249F6E0D18E0AC4100FA1F76 /* Images.xcassets in Resources */,
 			);
@@ -245,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24A80FB918E0AE5D00EFADDC /* DLHuntViewController.m in Sources */,
 				243A048018E0AF1000F78CE8 /* DLClue.m in Sources */,
 				249F6E0B18E0AC4100FA1F76 /* DLAppDelegate.m in Sources */,
+				24A80FBF18E0B87700EFADDC /* Reachability.m in Sources */,
 				249F6E0718E0AC4100FA1F76 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
