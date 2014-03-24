@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243A048018E0AF1000F78CE8 /* DLClue.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A047F18E0AF0F00F78CE8 /* DLClue.m */; };
 		249F6DFB18E0AC4100FA1F76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249F6DFA18E0AC4100FA1F76 /* Foundation.framework */; };
 		249F6DFD18E0AC4100FA1F76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249F6DFC18E0AC4100FA1F76 /* CoreGraphics.framework */; };
 		249F6DFF18E0AC4100FA1F76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249F6DFE18E0AC4100FA1F76 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		243A047E18E0AF0F00F78CE8 /* DLClue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLClue.h; sourceTree = "<group>"; };
+		243A047F18E0AF0F00F78CE8 /* DLClue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLClue.m; sourceTree = "<group>"; };
 		249F6DF718E0AC4100FA1F76 /* DLScavenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLScavenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		249F6DFA18E0AC4100FA1F76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		249F6DFC18E0AC4100FA1F76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -91,6 +94,8 @@
 		249F6DEE18E0AC4100FA1F76 = {
 			isa = PBXGroup;
 			children = (
+				243A047E18E0AF0F00F78CE8 /* DLClue.h */,
+				243A047F18E0AF0F00F78CE8 /* DLClue.m */,
 				249F6E0018E0AC4100FA1F76 /* DLScavenger */,
 				249F6E1918E0AC4100FA1F76 /* DLScavengerTests */,
 				249F6DF918E0AC4100FA1F76 /* Frameworks */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24A80FB918E0AE5D00EFADDC /* DLHuntViewController.m in Sources */,
+				243A048018E0AF1000F78CE8 /* DLClue.m in Sources */,
 				249F6E0B18E0AC4100FA1F76 /* DLAppDelegate.m in Sources */,
 				24A80FBF18E0B87700EFADDC /* Reachability.m in Sources */,
 				249F6E0718E0AC4100FA1F76 /* main.m in Sources */,
