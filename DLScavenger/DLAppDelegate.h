@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DLHuntViewController.h"
 
 @interface DLAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) DLHuntViewController *huntViewController;
 
 @end
