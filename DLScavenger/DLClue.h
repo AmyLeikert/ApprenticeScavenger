@@ -14,7 +14,7 @@
 @property (nonatomic) NSString *clueText;
 @property (nonatomic) UIImage *clueImage;
 @property (nonatomic) BOOL complete;
-
-// TODO: include a property for the location, preferably a polygon of sorts, so that bigger locations can register as found from any spot within the polygon.
+@property (nonatomic) float latitude;
+@property (nonatomic) float longitude;
 
 @end
