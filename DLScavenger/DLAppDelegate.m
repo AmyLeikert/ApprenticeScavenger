@@ -8,6 +8,7 @@
 
 #import "DLAppDelegate.h"
 
+
 @implementation DLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -15,6 +16,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.huntViewController = [[DLHuntViewController alloc] initWithNibName:@"DLHuntViewController" bundle:nil];
+    self.window.rootViewController = self.huntViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
