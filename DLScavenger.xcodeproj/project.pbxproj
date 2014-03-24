@@ -19,6 +19,7 @@
 		249F6E1618E0AC4100FA1F76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249F6DFE18E0AC4100FA1F76 /* UIKit.framework */; };
 		249F6E1E18E0AC4100FA1F76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 249F6E1C18E0AC4100FA1F76 /* InfoPlist.strings */; };
 		249F6E2018E0AC4100FA1F76 /* DLScavengerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F6E1F18E0AC4100FA1F76 /* DLScavengerTests.m */; };
+		249F6E2A18E0AF7300FA1F76 /* Clues.plist in Resources */ = {isa = PBXBuildFile; fileRef = 249F6E2918E0AF7300FA1F76 /* Clues.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		249F6E1B18E0AC4100FA1F76 /* DLScavengerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DLScavengerTests-Info.plist"; sourceTree = "<group>"; };
 		249F6E1D18E0AC4100FA1F76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		249F6E1F18E0AC4100FA1F76 /* DLScavengerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLScavengerTests.m; sourceTree = "<group>"; };
+		249F6E2918E0AF7300FA1F76 /* Clues.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Clues.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		249F6DEE18E0AC4100FA1F76 = {
 			isa = PBXGroup;
 			children = (
+				249F6E2918E0AF7300FA1F76 /* Clues.plist */,
 				249F6E0018E0AC4100FA1F76 /* DLScavenger */,
 				249F6E1918E0AC4100FA1F76 /* DLScavengerTests */,
 				249F6DF918E0AC4100FA1F76 /* Frameworks */,
@@ -222,6 +225,7 @@
 			files = (
 				249F6E0518E0AC4100FA1F76 /* InfoPlist.strings in Resources */,
 				249F6E0D18E0AC4100FA1F76 /* Images.xcassets in Resources */,
+				249F6E2A18E0AF7300FA1F76 /* Clues.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +446,7 @@
 				249F6E2518E0AC4100FA1F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		249F6E2618E0AC4100FA1F76 /* Build configuration list for PBXNativeTarget "DLScavengerTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +455,7 @@
 				249F6E2818E0AC4100FA1F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
