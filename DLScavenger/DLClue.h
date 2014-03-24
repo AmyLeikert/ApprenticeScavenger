@@ -10,9 +10,9 @@
 
 @interface DLClue : NSObject
 
-@property (nonatomic) NSString *title;
-@property (nonatomic) NSString *clueText;
-@property (nonatomic) UIImage *clueImage;
+@property (nonatomic, copy) NSString *title;
+@property (nonatomic, copy) NSString *clueText;
+@property (nonatomic, strong) UIImage *clueImage;
 @property (nonatomic) BOOL complete;
 @property (nonatomic) float latitude;
 @property (nonatomic) float longitude;
