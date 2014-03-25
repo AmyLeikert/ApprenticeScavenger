@@ -30,8 +30,6 @@
 		24A80FCC18E20EE300EFADDC /* DLClueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24A80FCA18E20EE300EFADDC /* DLClueViewController.xib */; };
 		24CF092218E0B06D00509876 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF092118E0B06D00509876 /* MapKit.framework */; };
 		24CF092418E0B07500509876 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF092318E0B07500509876 /* CoreLocation.framework */; };
-		24CF092818E0B1EA00509876 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF092618E0B1EA00509876 /* MapViewController.m */; };
-		24CF092918E0B1EA00509876 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24CF092718E0B1EA00509876 /* MapViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,9 +75,6 @@
 		24A80FCA18E20EE300EFADDC /* DLClueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLClueViewController.xib; sourceTree = "<group>"; };
 		24CF092118E0B06D00509876 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		24CF092318E0B07500509876 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		24CF092518E0B1EA00509876 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		24CF092618E0B1EA00509876 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		24CF092718E0B1EA00509876 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,9 +155,6 @@
 			children = (
 				249F6E0918E0AC4100FA1F76 /* DLAppDelegate.h */,
 				249F6E0A18E0AC4100FA1F76 /* DLAppDelegate.m */,
-				24CF092518E0B1EA00509876 /* MapViewController.h */,
-				24CF092618E0B1EA00509876 /* MapViewController.m */,
-				24CF092718E0B1EA00509876 /* MapViewController.xib */,
 				243A048118E0B13E00F78CE8 /* Models */,
 				24A80FB618E0AE5D00EFADDC /* DLHuntViewController.h */,
 				24A80FB718E0AE5D00EFADDC /* DLHuntViewController.m */,
@@ -286,7 +278,6 @@
 				24A80FBA18E0AE5D00EFADDC /* DLHuntViewController.xib in Resources */,
 				24A80FCC18E20EE300EFADDC /* DLClueViewController.xib in Resources */,
 				249F6E0518E0AC4100FA1F76 /* InfoPlist.strings in Resources */,
-				24CF092918E0B1EA00509876 /* MapViewController.xib in Resources */,
 				249F6E0D18E0AC4100FA1F76 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,7 +300,6 @@
 				24A80FC718E209BC00EFADDC /* DLHunt.m in Sources */,
 				24A80FCB18E20EE300EFADDC /* DLClueViewController.m in Sources */,
 				240ED51618E2047400B5C1A9 /* DLAppDelegate.m in Sources */,
-				24CF092818E0B1EA00509876 /* MapViewController.m in Sources */,
 				243A048418E0B18700F78CE8 /* DLClue.m in Sources */,
 				24A80FB918E0AE5D00EFADDC /* DLHuntViewController.m in Sources */,
 				24A80FBF18E0B87700EFADDC /* Reachability.m in Sources */,

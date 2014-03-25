@@ -18,6 +18,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.huntViewController = [[DLHuntViewController alloc] initWithNibName:@"DLHuntViewController" bundle:nil];
     self.window.rootViewController = self.huntViewController;
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     [self.window makeKeyAndVisible];
     return YES;
 }
