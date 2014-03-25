@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		240ED51618E2047400B5C1A9 /* DLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F6E0A18E0AC4100FA1F76 /* DLAppDelegate.m */; };
+		240ED51818E21A6900B5C1A9 /* CluesList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 240ED51718E21A6900B5C1A9 /* CluesList.plist */; };
 		243A048418E0B18700F78CE8 /* DLClue.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A048318E0B18700F78CE8 /* DLClue.m */; };
 		249F6DFB18E0AC4100FA1F76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249F6DFA18E0AC4100FA1F76 /* Foundation.framework */; };
 		249F6DFD18E0AC4100FA1F76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249F6DFC18E0AC4100FA1F76 /* CoreGraphics.framework */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		240ED51718E21A6900B5C1A9 /* CluesList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CluesList.plist; path = ../CluesList.plist; sourceTree = "<group>"; };
 		243A048218E0B18700F78CE8 /* DLClue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLClue.h; sourceTree = "<group>"; };
 		243A048318E0B18700F78CE8 /* DLClue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLClue.m; sourceTree = "<group>"; };
 		24755C1618E1FEDB0088FAC9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				24A80FCA18E20EE300EFADDC /* DLClueViewController.xib */,
 				24755C1618E1FEDB0088FAC9 /* Reachability.h */,
 				24A80FBE18E0B87700EFADDC /* Reachability.m */,
+				240ED51718E21A6900B5C1A9 /* CluesList.plist */,
 				249F6E0C18E0AC4100FA1F76 /* Images.xcassets */,
 				249F6E0118E0AC4100FA1F76 /* Supporting Files */,
 			);
@@ -286,6 +289,7 @@
 				24A80FBA18E0AE5D00EFADDC /* DLHuntViewController.xib in Resources */,
 				24A80FCC18E20EE300EFADDC /* DLClueViewController.xib in Resources */,
 				249F6E0518E0AC4100FA1F76 /* InfoPlist.strings in Resources */,
+				240ED51818E21A6900B5C1A9 /* CluesList.plist in Resources */,
 				24CF092918E0B1EA00509876 /* MapViewController.xib in Resources */,
 				249F6E0D18E0AC4100FA1F76 /* Images.xcassets in Resources */,
 			);

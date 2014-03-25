@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            	<key>Category</key>
+            	<string>Midtown</string>
+            	<key>Location</key>
+            	<string>Detroit Institute of the Arts</string>
+            	<key>Latitude</key>
+            	<real>42.359412</real>
+            	<key>Longitude</key>
+            	<real>-83.064482</real>
+            	<key>Clue</key>
+            	<string>Detroit is in a state of emergency! Join forces with the samurai.</string>
+            	<key>Completed</key>
+            	<false/>
+            </dict>
+        <dict>
+            	<key>Category</key>
+            	<string>Midtown</string>
+            	<key>Location</key>
+            	<string>Michigan Science Center</string>
+            	<key>Latitude</key>
+            	<real>42.358608</real>
+            	<key>Longitude</key>
+            	<real>-83.062043</real>
+            	<key>Clue</key>
+            	<string>Connect with science and nature. Take off and fly away with the butterflies.</string>
+            	<key>Completed</key>
+            	<false/>
+            </dict>
+        <dict>
+            	<key>Category</key>
+            	<string>Midtown</string>
+            	<key>Clue</key>
+            	<string>Sit down and take a load off with a beer in the coast of Florida.</string>
+            	<key>Location</key>
+            	<string>The Old Miami</string>
+            	<key>Completed</key>
+            	<false/>
+            	<key>Latitude</key>
+            	<real>42.348992</real>
+            	<key>Longitude</key>
+            	<real>-83.06209699999999</real>
+     </dict>
+    </array>
+</plist>
