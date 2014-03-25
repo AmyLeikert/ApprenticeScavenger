@@ -7,29 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		240ED51618E2047400B5C1A9 /* DLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F6E0A18E0AC4100FA1F76 /* DLAppDelegate.m */; };
 		243A048418E0B18700F78CE8 /* DLClue.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A048318E0B18700F78CE8 /* DLClue.m */; };
 		249F6DFB18E0AC4100FA1F76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249F6DFA18E0AC4100FA1F76 /* Foundation.framework */; };
 		249F6DFD18E0AC4100FA1F76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249F6DFC18E0AC4100FA1F76 /* CoreGraphics.framework */; };
 		249F6DFF18E0AC4100FA1F76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249F6DFE18E0AC4100FA1F76 /* UIKit.framework */; };
 		249F6E0518E0AC4100FA1F76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 249F6E0318E0AC4100FA1F76 /* InfoPlist.strings */; };
 		249F6E0718E0AC4100FA1F76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F6E0618E0AC4100FA1F76 /* main.m */; };
-		249F6E0B18E0AC4100FA1F76 /* DLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F6E0A18E0AC4100FA1F76 /* DLAppDelegate.m */; };
 		249F6E0D18E0AC4100FA1F76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249F6E0C18E0AC4100FA1F76 /* Images.xcassets */; };
 		249F6E1418E0AC4100FA1F76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249F6E1318E0AC4100FA1F76 /* XCTest.framework */; };
 		249F6E1518E0AC4100FA1F76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249F6DFA18E0AC4100FA1F76 /* Foundation.framework */; };
 		249F6E1618E0AC4100FA1F76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249F6DFE18E0AC4100FA1F76 /* UIKit.framework */; };
 		249F6E1E18E0AC4100FA1F76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 249F6E1C18E0AC4100FA1F76 /* InfoPlist.strings */; };
 		249F6E2018E0AC4100FA1F76 /* DLScavengerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249F6E1F18E0AC4100FA1F76 /* DLScavengerTests.m */; };
-		24CF092218E0B06D00509876 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF092118E0B06D00509876 /* MapKit.framework */; };
-		24CF092418E0B07500509876 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF092318E0B07500509876 /* CoreLocation.framework */; };
-		24CF092818E0B1EA00509876 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF092618E0B1EA00509876 /* MapViewController.m */; };
-		24CF092918E0B1EA00509876 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24CF092718E0B1EA00509876 /* MapViewController.xib */; };
-		24CF092C18E0B43500509876 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF092B18E0B43500509876 /* Reachability.m */; };
 		24A80FB518E0AE4B00EFADDC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A80FB418E0AE4B00EFADDC /* MapKit.framework */; };
 		24A80FB918E0AE5D00EFADDC /* DLHuntViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A80FB718E0AE5D00EFADDC /* DLHuntViewController.m */; };
 		24A80FBA18E0AE5D00EFADDC /* DLHuntViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24A80FB818E0AE5D00EFADDC /* DLHuntViewController.xib */; };
 		24A80FBC18E0B14200EFADDC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A80FBB18E0B14200EFADDC /* CoreLocation.framework */; };
 		24A80FBF18E0B87700EFADDC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A80FBE18E0B87700EFADDC /* Reachability.m */; };
+		24CF092218E0B06D00509876 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF092118E0B06D00509876 /* MapKit.framework */; };
+		24CF092418E0B07500509876 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF092318E0B07500509876 /* CoreLocation.framework */; };
+		24CF092818E0B1EA00509876 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF092618E0B1EA00509876 /* MapViewController.m */; };
+		24CF092918E0B1EA00509876 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24CF092718E0B1EA00509876 /* MapViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +44,7 @@
 /* Begin PBXFileReference section */
 		243A048218E0B18700F78CE8 /* DLClue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLClue.h; sourceTree = "<group>"; };
 		243A048318E0B18700F78CE8 /* DLClue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLClue.m; sourceTree = "<group>"; };
+		24755C1618E1FEDB0088FAC9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		249F6DF718E0AC4100FA1F76 /* DLScavenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLScavenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		249F6DFA18E0AC4100FA1F76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		249F6DFC18E0AC4100FA1F76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,20 +61,17 @@
 		249F6E1B18E0AC4100FA1F76 /* DLScavengerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DLScavengerTests-Info.plist"; sourceTree = "<group>"; };
 		249F6E1D18E0AC4100FA1F76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		249F6E1F18E0AC4100FA1F76 /* DLScavengerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLScavengerTests.m; sourceTree = "<group>"; };
-		24CF092118E0B06D00509876 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		24CF092318E0B07500509876 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		24CF092518E0B1EA00509876 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		24CF092618E0B1EA00509876 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		24CF092718E0B1EA00509876 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
-		24CF092A18E0B43500509876 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		24CF092B18E0B43500509876 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		24A80FB418E0AE4B00EFADDC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		24A80FB618E0AE5D00EFADDC /* DLHuntViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLHuntViewController.h; sourceTree = "<group>"; };
 		24A80FB718E0AE5D00EFADDC /* DLHuntViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLHuntViewController.m; sourceTree = "<group>"; };
 		24A80FB818E0AE5D00EFADDC /* DLHuntViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLHuntViewController.xib; sourceTree = "<group>"; };
 		24A80FBB18E0B14200EFADDC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		24A80FBD18E0B87700EFADDC /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		24A80FBE18E0B87700EFADDC /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		24CF092118E0B06D00509876 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		24CF092318E0B07500509876 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		24CF092518E0B1EA00509876 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		24CF092618E0B1EA00509876 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		24CF092718E0B1EA00509876 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,13 +153,11 @@
 				24CF092518E0B1EA00509876 /* MapViewController.h */,
 				24CF092618E0B1EA00509876 /* MapViewController.m */,
 				24CF092718E0B1EA00509876 /* MapViewController.xib */,
-				24CF092A18E0B43500509876 /* Reachability.h */,
-				24CF092B18E0B43500509876 /* Reachability.m */,
 				243A048118E0B13E00F78CE8 /* Models */,
 				24A80FB618E0AE5D00EFADDC /* DLHuntViewController.h */,
 				24A80FB718E0AE5D00EFADDC /* DLHuntViewController.m */,
 				24A80FB818E0AE5D00EFADDC /* DLHuntViewController.xib */,
-				24A80FBD18E0B87700EFADDC /* Reachability.h */,
+				24755C1618E1FEDB0088FAC9 /* Reachability.h */,
 				24A80FBE18E0B87700EFADDC /* Reachability.m */,
 				249F6E0C18E0AC4100FA1F76 /* Images.xcassets */,
 				249F6E0118E0AC4100FA1F76 /* Supporting Files */,
@@ -297,13 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240ED51618E2047400B5C1A9 /* DLAppDelegate.m in Sources */,
 				24CF092818E0B1EA00509876 /* MapViewController.m in Sources */,
-				249F6E0B18E0AC4100FA1F76 /* DLAppDelegate.m in Sources */,
-				24CF092C18E0B43500509876 /* Reachability.m in Sources */,
 				243A048418E0B18700F78CE8 /* DLClue.m in Sources */,
 				24A80FB918E0AE5D00EFADDC /* DLHuntViewController.m in Sources */,
-				243A048018E0AF1000F78CE8 /* DLClue.m in Sources */,
-				249F6E0B18E0AC4100FA1F76 /* DLAppDelegate.m in Sources */,
 				24A80FBF18E0B87700EFADDC /* Reachability.m in Sources */,
 				249F6E0718E0AC4100FA1F76 /* main.m in Sources */,
 			);
